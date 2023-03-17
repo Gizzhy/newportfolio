@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import "../pages/body.css"
-import  port01 from "../assets/images/port01.png"
+import  port02 from "../assets/images/port02.png"
 import { Link } from "react-router-dom";
 import {Typewriter} from 'react-simple-typewriter'
 
@@ -33,7 +33,7 @@ function Body() {
                             <Link to="/continue"><button className="cta">Hire Me !</button></Link>
                         </div>
                         <div className="col-lg-6">
-                            <img className="port01" src={port01} alt="" />
+                            <img className="port01" src={port02} alt="" />
                         </div>
                     </div>
                 </div>

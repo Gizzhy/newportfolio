@@ -1,5 +1,6 @@
 .port01 {
-    width: 100%;
+    width: 78%;
+    margin-left: 20%;
     animation: fadeIn;
     animation-duration: 2s;
   }
@@ -47,6 +48,10 @@
 
 
       @media screen and (max-width: 850px) {
+        .port01 {
+          width: 100%;
+          margin-left: 0%;
+        }
         .h-1{
             text-align: center;
             font-family: 'Montserrat', sans-serif;
