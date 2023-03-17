@@ -15,13 +15,13 @@ export const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link about" aria-current="page" href="#">About</a>
+                <a class="nav-link about" aria-current="page" href="hhtps://google.com">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link service" aria-current="page" href="#">Services</a>
+                <a class="nav-link service" aria-current="page" href="hhtps://google.com">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link portfolio" aria-current="page" href="#">Portfolio</a>
+                <a class="nav-link portfolio" aria-current="page" href="hhtps://google.com">Portfolio</a>
               </li>
 
               {/* <li class="nav-item dropdown">
