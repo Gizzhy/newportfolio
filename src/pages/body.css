@@ -44,6 +44,39 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
       }
+      .line{
+        height:1px;
+        width: 70%;
+        justify-content:center;
+        border-width:0;
+        opacity: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:white;
+      }
+      .lineplace,
+      .about-div{
+        background-color: black;
+      }
+
+      .aboutme{
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        margin-top: 0%;
+      }
+      .aboutbody{
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        /* font-weight: 700; */
+        margin-top: 0%;
+      }
 
 
 
@@ -85,4 +118,12 @@
           .port01{
             margin-top: 20px;
           }
+
+        .aboutme{
+          font-size: 25px;
+        font-weight: 700;
+        }
+        .aboutbody{
+          font-size: 16px;
+        }
       }
