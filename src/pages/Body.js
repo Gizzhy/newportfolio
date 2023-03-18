@@ -103,6 +103,22 @@ function Body() {
                 </div>
             </div> */}
         </section>
+        <div className="container-fluid lineplace">
+            <div className="row">
+                <div className="col-md-12">
+                    <hr className="line"/>
+                </div>
+            </div>
+        </div>
+        <section id="services">
+        <div className="container-fluid about-div">
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="aboutme">SERVICES I OFFER</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         </>
  )

@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <a class="nav-link about" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link service" aria-current="page" href="hhtps://google.com">Services</a>
+                <a class="nav-link service" aria-current="page" href="#services">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link portfolio" aria-current="page" href="hhtps://google.com">Portfolio</a>
