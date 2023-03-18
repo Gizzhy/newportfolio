@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import "../pages/body.css"
 import  port02 from "../assets/images/port02.png"
+// import  port01 from "../assets/images/port01.png"
 import { Link } from "react-router-dom";
 import {Typewriter} from 'react-simple-typewriter'
 
@@ -13,7 +14,7 @@ function Body() {
     return (
         <>
         <section id="hero-section" data-aos="zoom-in">
-                <div className="container">
+                <div className="container firstpart">
                     <div className="row">
                         <div className="col-lg-6">
                         <p className="h-0">HI, MY NAME IS</p><br></br>
@@ -33,7 +34,7 @@ function Body() {
                             <Link to="/continue"><button className="cta">Hire Me !</button></Link>
                         </div>
                         <div className="col-lg-6">
-                            <img className="port01" src={port02} alt="" />
+                            <img className="img-fluid port01" src={port02} alt="" />
                         </div>
                     </div>
                 </div>
@@ -71,14 +72,37 @@ function Body() {
                     </div>
                 </div>
             </div>
-        </section>
-        {/* <section>
-            <div className="row">
-             <div className="col-lg-12">
-             <hr className="line" />
-        </div>
+            {/* <div className="container-fluid about-div">
+             <div className="row">
+                    <div className="col-md-2"><p className="htmlb">HTML</p></div>
+                    <div className="skillthings">
+                    <div className="col-md-10 ">
+                     <div class="skill html">80%</div>
+                    </div>
+                    </div>
+                </div>
             </div>
-        </section> */}
+            <div className="container-fluid about-div">
+             <div className="row">
+                    <div className="col-md-2"><p className="htmlb">CSS</p></div>
+                    <div className="skillthings">
+                    <div className="col-md-10 ">
+                     <div class="skill html">80%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid about-div">
+             <div className="row">
+                    <div className="col-md-2"><p className="htmlb">REACTjs</p></div>
+                    <div className="skillthings">
+                    <div className="col-md-10 ">
+                     <div class="skill html">80%</div>
+                    </div>
+                    </div>
+                </div>
+            </div> */}
+        </section>
 
         </>
  )

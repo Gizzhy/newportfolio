@@ -1,8 +1,13 @@
-.port01 {
-    width: 78%;
-    margin-left: 20%;
-    animation: fadeIn;
+.firstpart{
+  animation: zoomIn;
     animation-duration: 2s;
+}
+.port01 {
+    width: 300px;
+    height: 430px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
   }
   .h-0{
     color: #0F5ACD;
@@ -77,6 +82,31 @@
         /* font-weight: 700; */
         margin-top: 0%;
       }
+      .skillthings{
+        background-color: rgb(192, 192, 192);
+    width: 50%;
+     border-radius: 15px;
+      }
+
+      .skill {
+        background-color: white;
+        color: black;
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .htmlb{
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+    }
+    
+    .html {
+        width: 80%;
+    }
+    
 
 
 
