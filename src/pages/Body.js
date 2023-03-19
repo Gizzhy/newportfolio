@@ -120,25 +120,7 @@ function Body() {
                     </div>
                 </div>
             </div>
-            {/* <div className="row" style={{textAlign:"center", color:"#fff"}}>
-                <div className="col-lg-12">
-                    <span className="number">1</span>  <span>Responsive Websites</span>
-                </div>
-            </div>
-            <br/> <br/> <br/>
-            <div className="row" style={{textAlign:"center", color:"#fff"}}>
-                <div className="col-lg-12">
-                    <span className="number">2</span>  <span>Application Development</span>
-                </div>
-            </div>
-            <br/> <br/> <br/>
-            <div className="row" style={{textAlign:"center", color:"#fff"}}>
-                <div className="col-lg-12">
-                    <span className="number">1</span>  <span>Responsive Websites</span>
-                </div>
-            </div>
-            <br/> <br/> <br/> */}
-            <div className="container">
+            {/* <div className="container">
                 <div className="row">
                 <div className="col-md-6">
                         <p className="website">Responsive Websites</p>
@@ -183,6 +165,45 @@ function Body() {
                             <img className="img-fluid websiteimg" src={codetyping} alt="" />
                         </div>
                 </div>
+            </div> */}
+        </section>
+        <div className="container-fluid lineplace">
+            <div className="row">
+                <div className="col-md-12">
+                    <hr className="line"/>
+                </div>
+            </div>
+        </div>
+        <section id="portfolio">
+        <div className="container-fluid about-div">
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="aboutme">SELECTED WORKS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div className="container-fluid lineplace">
+            <div className="row">
+                <div className="col-md-12">
+                    <hr className="line"/>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div className="container-fluid about-div">
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="developer">NEED A DEVELOPER ?</p>
+                    </div>
+                    
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="developer1">LET'S WORK TOGETHER</p>
+                    </div>
+                </div>
+                <Link to="/continue"><button className="developer2">SAY HELLO</button></Link>
             </div>
         </section>
 
