@@ -1,6 +1,8 @@
 import { useEffect } from "react"
 import "../pages/body.css"
 import  port02 from "../assets/images/port02.png"
+import  codetyping from "../assets/images/codetyping.gif"
+import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
 import { Link } from "react-router-dom";
 import {Typewriter} from 'react-simple-typewriter'
@@ -116,6 +118,70 @@ function Body() {
                     <div className="col-md-12">
                         <p className="aboutme">SERVICES I OFFER</p>
                     </div>
+                </div>
+            </div>
+            {/* <div className="row" style={{textAlign:"center", color:"#fff"}}>
+                <div className="col-lg-12">
+                    <span className="number">1</span>  <span>Responsive Websites</span>
+                </div>
+            </div>
+            <br/> <br/> <br/>
+            <div className="row" style={{textAlign:"center", color:"#fff"}}>
+                <div className="col-lg-12">
+                    <span className="number">2</span>  <span>Application Development</span>
+                </div>
+            </div>
+            <br/> <br/> <br/>
+            <div className="row" style={{textAlign:"center", color:"#fff"}}>
+                <div className="col-lg-12">
+                    <span className="number">1</span>  <span>Responsive Websites</span>
+                </div>
+            </div>
+            <br/> <br/> <br/> */}
+            <div className="container">
+                <div className="row">
+                <div className="col-md-6">
+                        <p className="website">Responsive Websites</p>
+                    </div>
+                <div className="col-md-6">
+                            <img className="img-fluid websiteimg" src={mobileapps} alt="" />
+                        </div>
+                </div>
+            </div>
+            <div className="container-fluid lineplace">
+              <div className="row">
+                 <div className="col-md-12">
+                    <hr className="line1"/>
+                 </div>
+              </div>
+           </div>
+            <div className="container">
+                <div className="row">
+                <div className="col-md-6">
+                        <p className="website">Responsive Websites</p>
+                    </div>
+                <div className="col-md-6">
+                            <img className="img-fluid websiteimg" src={codetyping} alt="" />
+                        </div>
+                </div>
+            </div>
+
+            <div className="container-fluid lineplace">
+            <div className="row">
+                <div className="col-md-12">
+                    <hr className="line1"/>
+                </div>
+            </div>
+        </div>
+
+            <div className="container">
+                <div className="row">
+                   <div className="col-lg-6">
+                        <p className="website">BackEnd Development</p>
+                    </div>
+                <div className="col-lg-6">
+                            <img className="img-fluid websiteimg" src={codetyping} alt="" />
+                        </div>
                 </div>
             </div>
         </section>
