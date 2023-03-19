@@ -37,7 +37,7 @@ export const Navbar = () => {
               </li> */}
             </ul>
             <li className="d-flex">
-                                    <Link to="/auth/sign-up" className="nav-link nav-cta"><button className="contact-me">Contact Me</button></Link>
+                                    <Link to="#contactme" className="nav-link nav-cta"><button className="contact-me">Contact Me</button></Link>
                                 </li>
             
             {/* <form class="d-flex" role="search">

@@ -190,20 +190,35 @@ function Body() {
                 </div>
             </div>
         </div>
-        <section>
+        <section id="contactme">
             <div className="container-fluid about-div">
                 <div className="row">
                     <div className="col-md-12">
                         <p className="developer">NEED A DEVELOPER ?</p>
-                    </div>
-                    
+                    </div>    
                 </div>
+
                 <div className="row">
                     <div className="col-md-12">
                         <p className="developer1">LET'S WORK TOGETHER</p>
                     </div>
                 </div>
-                <Link to="/continue"><button className="developer2">SAY HELLO</button></Link>
+
+                <div className="row">
+                    <div className="col-mg-12 contactpart">
+                      <Link to="/continue"><button className="developer2">SAY HELLO</button></Link>
+                    </div>
+                </div>
+                 <br/> <br/> <br/>
+                <div className="row">
+                    <div className="col-md-6">
+                    <i class="fa-light fa-phone-arrow-down-left"></i><p className="contactt">+2347010190783</p>
+                    </div>
+                    <div className="col-md-6">
+                        <p className="contactt">gideonakinlotan16@gmai.com</p>
+                    </div>
+                    
+                </div>               
             </div>
         </section>
 

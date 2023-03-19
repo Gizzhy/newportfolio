@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
 import "./home.css"
 import Body from "./Body"
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div className="Home">
           <Navbar/>
           <Body/>
+          <Footer/>
         </div>
     )
 };
