@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import "../pages/body.css"
 import  port02 from "../assets/images/port02.png"
-import  codetyping from "../assets/images/codetyping.gif"
-import  mobileapps from "../assets/images/mobileapps.gif"
+// import  codetyping from "../assets/images/codetyping.gif"
+// import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
 import { Link } from "react-router-dom";
 import {Typewriter} from 'react-simple-typewriter'
