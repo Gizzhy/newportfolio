@@ -184,6 +184,13 @@
       font-size: 15px;
   }
 
+  .fa-envelope{
+    margin-right: 2%;
+  }
+  .fa-phone{
+    margin-right: 2%;
+  }
+
 
 
       @media screen and (max-width: 850px) {
@@ -280,6 +287,9 @@
           left: 50%;
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+        }
+        .contactpart{
+          margin-top: 4%;
         }
         
       }

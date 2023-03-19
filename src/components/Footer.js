@@ -5,7 +5,7 @@ import "./footer.css"
 export const Footer = () => {
     return (
         <div>
-        <div className="col-md-12">
+         <div className="col-md-12">
                     <hr className="linef"/>
                 </div>
          <div className="footer">

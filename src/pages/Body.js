@@ -212,10 +212,10 @@ function Body() {
                  <br/> <br/> <br/>
                 <div className="row">
                     <div className="col-md-6">
-                    <i class="fa-light fa-phone-arrow-down-left"></i><p className="contactt">+2347010190783</p>
+                    <p className="contactt"><i class="fa-solid fa-phone"></i>+2347010190783</p>
                     </div>
                     <div className="col-md-6">
-                        <p className="contactt">gideonakinlotan16@gmai.com</p>
+                        <p className="contactt"><i class="fa-solid fa-envelope"></i>gideonakinlotan16@gmai.com</p>
                     </div>
                     
                 </div>               
