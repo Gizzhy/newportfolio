@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div>
         <div className="col-md-12">
-                    <hr className="line"/>
+                    <hr className="linef"/>
                 </div>
          <div className="footer">
             <div className="row foot">
