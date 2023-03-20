@@ -190,6 +190,15 @@
   .fa-phone{
     margin-right: 2%;
   }
+  .img-footer{
+    width: 50px;
+    padding-left: 15px;
+  }
+  .footer-icons{
+    text-align: center;
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
+  }
 
 
 
@@ -291,5 +300,4 @@
         .contactpart{
           margin-top: 4%;
         }
-        
       }

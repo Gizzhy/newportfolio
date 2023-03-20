@@ -1,6 +1,9 @@
 import { useEffect } from "react"
 import "../pages/body.css"
 import  port02 from "../assets/images/port02.png"
+import  twitter from "../assets/images/twitter.png"
+import  instagram from "../assets/images/instagram.png"
+import  github from "../assets/images/github.png"
 // import  codetyping from "../assets/images/codetyping.gif"
 // import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
@@ -217,6 +220,11 @@ function Body() {
                     <div className="col-md-6">
                         <p className="contactt"><i class="fa-solid fa-envelope"></i>gideonakinlotan16@gmai.com</p>
                     </div>
+                    <div className="footer-icons"> 
+        <a href='https://twitter.com/Gizzhy_A' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className="img-footer"/></a>
+        <a href='https://instagram.com/gideon_akinz?igshid=YmMyMTA2M2Y=' target="_blank" rel='noreferrer'><img src={instagram} alt="github" className="img-footer"/></a>
+        <a href='https://github.com/Gizzhy' target="_blank" rel='noreferrer'><img src={github} alt="email" className="img-footer"/></a>
+        </div>
                     
                 </div>               
             </div>
