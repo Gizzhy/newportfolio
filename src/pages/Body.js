@@ -215,10 +215,10 @@ function Body() {
                  <br/> <br/> <br/>
                 <div className="row">
                     <div className="col-md-6">
-                    <p className="contactt"><i class="fa-solid fa-phone"></i>+2347010190783</p>
+                    <a href="tel:+2347010190783"><p className="contactt"><i class="fa-solid fa-phone"></i>+2347010190783</p></a>
                     </div>
                     <div className="col-md-6">
-                        <p className="contactt"><i class="fa-solid fa-envelope"></i>gideonakinlotan16@gmai.com</p>
+                        <a href="mailto:gideonakinlotan16@gmail.com"><p className="contactt"><i class="fa-solid fa-envelope"></i>gideonakinlotan16@gmai.com</p></a>
                     </div>
                     <div className="footer-icons"> 
         <a href='https://twitter.com/Gizzhy_A' target="_blank" rel='noreferrer'><img src={twitter} alt="twitter" className="img-footer"/></a>

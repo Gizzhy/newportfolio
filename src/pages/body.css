@@ -183,6 +183,10 @@
       /* font-weight: 700; */
       font-size: 15px;
   }
+  a{
+    text-decoration: none;
+    color: white;
+  }
 
   .fa-envelope{
     margin-right: 2%;
