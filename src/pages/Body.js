@@ -4,6 +4,12 @@ import  port02 from "../assets/images/port02.png"
 import  twitter from "../assets/images/twitter.png"
 import  instagram from "../assets/images/instagram.png"
 import  github from "../assets/images/github.png"
+import  wordpress from "../assets/images/wordpress.png"
+import  structure from "../assets/images/structure.png"
+import  adobe from "../assets/images/adobe.png"
+import  html from "../assets/images/html.png"
+import  css3 from "../assets/images/css3.png"
+import  python from "../assets/images/python.png"
 // import  codetyping from "../assets/images/codetyping.gif"
 // import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
@@ -76,37 +82,35 @@ function Body() {
                         <p className="aboutme">MY SKILLS</p>
                     </div>
                 </div>
-            </div>
-            {/* <div className="container-fluid about-div">
-             <div className="row">
-                    <div className="col-md-2"><p className="htmlb">HTML</p></div>
-                    <div className="skillthings">
-                    <div className="col-md-10 ">
-                     <div class="skill html">80%</div>
-                    </div>
-                    </div>
+                <div className="container skillset-details">
+                    <span className="html">
+                        HTML
+                        <img className="img-fluid htmlimg" src={html} alt="" />
+                    </span>
+                    <span className="html">
+                        CSS
+                        <img className="img-fluid htmlimg" src={css3} alt="" />
+                    </span>
+                    <span className="html">
+                        REACTjs
+                        <img className="img-fluid htmlimg" src={structure} alt="" />
+                    </span>
+                    <span className="html">
+                        PYTHON
+                        <img className="img-fluid htmlimg" src={python} alt="" />
+                    </span>
+                    <span className="html">
+                        WORDPRESS
+                        <img className="img-fluid htmlimg" src={wordpress} alt="" />
+                    </span>
+                    <span className="html">
+                        ADOBE ILLUSTRATOR
+                        <img className="img-fluid htmlimg" src={adobe} alt="" />
+                    </span>
                 </div>
+
+                
             </div>
-            <div className="container-fluid about-div">
-             <div className="row">
-                    <div className="col-md-2"><p className="htmlb">CSS</p></div>
-                    <div className="skillthings">
-                    <div className="col-md-10 ">
-                     <div class="skill html">80%</div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid about-div">
-             <div className="row">
-                    <div className="col-md-2"><p className="htmlb">REACTjs</p></div>
-                    <div className="skillthings">
-                    <div className="col-md-10 ">
-                     <div class="skill html">80%</div>
-                    </div>
-                    </div>
-                </div>
-            </div> */}
         </section>
         <div className="container-fluid lineplace">
             <div className="row">
@@ -209,7 +213,7 @@ function Body() {
 
                 <div className="row">
                     <div className="col-mg-12 contactpart">
-                      <Link to="/continue"><button className="developer2">SAY HELLO</button></Link>
+                      <Link to="/continue"><button className="developer2" lazy-loading>SAY HELLO</button></Link>
                     </div>
                 </div>
                  <br/> <br/> <br/>

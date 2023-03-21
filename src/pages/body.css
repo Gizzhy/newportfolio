@@ -107,8 +107,30 @@
     }
     
     .html {
-        width: 80%;
+        font-weight: 700;
     }
+
+    .htmlimg{
+      display: block;
+      width: 20%;
+      margin: auto;
+    }
+
+    .skillset-details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .css {
+      text-align: center;
+      font-weight: 700;
+  }
+
+  .cssimg{
+    width: 10%;
+  }
     
     .number{
       /* background-color: #1b1b1b; */
@@ -300,6 +322,15 @@
           left: 50%;
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+        }
+
+        .skillset-details{
+          flex-wrap: wrap;
+        }
+        .htmlimg{
+          width: 10%;
+          margin-top: 3%;
+          margin-bottom: 3%;
         }
         .contactpart{
           margin-top: 4%;
