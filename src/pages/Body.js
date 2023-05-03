@@ -10,6 +10,8 @@ import  adobe from "../assets/images/adobe.png"
 import  html from "../assets/images/html.png"
 import  css3 from "../assets/images/css3.png"
 import  python from "../assets/images/python.png"
+import  calculator from "../assets/images/calculator.png"
+import  vendlify from "../assets/images/vendlify.png"
 // import  codetyping from "../assets/images/codetyping.gif"
 // import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
@@ -182,10 +184,25 @@ function Body() {
             </div>
         </div>
         <section id="portfolio">
-        <div className="container-fluid about-div">
+        <div className="container about-div">
                 <div className="row">
                     <div className="col-md-12">
                         <p className="aboutme">SELECTED WORKS</p>
+                    </div>
+                    <div className="container port-details">
+
+                    <span className="html">
+                       <a href="https://iphone-calculator-rep.netlify.app/"> An iPhone Calculator Replica</a>
+                        <img className="img-fluid portimg" src={calculator} alt="" />
+                    </span>
+                    <span className="html">
+                    <a href="https://vendlify.netlify.app/"> Vendlify</a>
+                        <img className="img-fluid portimg" src={vendlify} alt="" />
+                    </span>
+                    <span className="html">
+                        An iPhone Calculator Replica
+                        <img className="img-fluid portimg" src={calculator} alt="" />
+                    </span>
                     </div>
                 </div>
             </div>
@@ -202,7 +219,8 @@ function Body() {
                 <div className="row">
                     <div className="col-md-12">
                         <p className="developer">NEED A DEVELOPER ?</p>
-                    </div>    
+                    </div>  
+                      
                 </div>
 
                 <div className="row">

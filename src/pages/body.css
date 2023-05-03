@@ -123,6 +123,20 @@
         text-align: center;
     }
 
+    .portimg{
+      display: block;
+      width: 90%;
+      margin: auto;
+    }
+    .port-details{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      /* border: white 1px solid; */
+      /* border-radius: 4px; */
+  }
+
     .css {
       text-align: center;
       font-weight: 700;
@@ -324,11 +338,16 @@
           transform: translate(-50%, -50%);
         }
 
-        .skillset-details{
+        .skillset-details, .port-details{
           flex-wrap: wrap;
         }
         .htmlimg{
           width: 10%;
+          margin-top: 3%;
+          margin-bottom: 3%;
+        }
+        .portimg{
+          width: 95%;
           margin-top: 3%;
           margin-bottom: 3%;
         }
