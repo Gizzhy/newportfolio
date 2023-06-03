@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png"
 import "./navbar.css"
 
+
 export const Navbar = () => {
   return (
     <div className="container-fluid">
