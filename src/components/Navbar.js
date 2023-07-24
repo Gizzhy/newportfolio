@@ -29,7 +29,7 @@ export const Navbar = () => {
                   About
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a
                   class="nav-link service"
                   aria-current="page"
@@ -37,7 +37,7 @@ export const Navbar = () => {
                 >
                   Services
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <a
                   class="nav-link portfolio"

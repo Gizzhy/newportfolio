@@ -127,7 +127,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <section id="services">
+      {/* <section id="services">
         <div className="container-fluid about-div">
           <div className="row">
             <div className="col-md-12">
@@ -135,53 +135,7 @@ function Body() {
             </div>
           </div>
         </div>
-        {/* <div className="container">
-                <div className="row">
-                <div className="col-md-6">
-                        <p className="website">Responsive Websites</p>
-                    </div>
-                <div className="col-md-6">
-                            <img className="img-fluid websiteimg" src={mobileapps} alt="" />
-                        </div>
-                </div>
-            </div>
-            <div className="container-fluid lineplace">
-              <div className="row">
-                 <div className="col-md-12">
-                    <hr className="line1"/>
-                 </div>
-              </div>
-           </div>
-            <div className="container">
-                <div className="row">
-                <div className="col-md-6">
-                        <p className="website">Responsive Websites</p>
-                    </div>
-                <div className="col-md-6">
-                            <img className="img-fluid websiteimg" src={codetyping} alt="" />
-                        </div>
-                </div>
-            </div>
-
-            <div className="container-fluid lineplace">
-            <div className="row">
-                <div className="col-md-12">
-                    <hr className="line1"/>
-                </div>
-            </div>
-        </div>
-
-            <div className="container">
-                <div className="row">
-                   <div className="col-lg-6">
-                        <p className="website">BackEnd Development</p>
-                    </div>
-                <div className="col-lg-6">
-                            <img className="img-fluid websiteimg" src={codetyping} alt="" />
-                        </div>
-                </div>
-            </div> */}
-      </section>
+      </section> */}
       <div className="container-fluid lineplace">
         <div className="row">
           <div className="col-md-12">
