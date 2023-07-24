@@ -1,34 +1,35 @@
 .logo {
-    width: 70px;
-  }
-  .contact-me {
-    background-color: #0F5ACD;
-    color: #ffffff;
-    border: none;
-    border-radius: 2px;
-    padding: 2px 16px;
-    font-weight: bold;
-  }
+  width: 70px;
+}
+
+.contact-me {
+  background-color: #0f5acd;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  padding: 2px 16px;
+  font-weight: bold;
+}
 
 .navbar-collapse {
   justify-content: flex-end;
 }
-.navbar-nav{
+.navbar-nav {
   margin-left: 23%;
 }
 
-.nav-link{
+.nav-link {
   color: rgb(255, 255, 255);
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-/* font-weight: 700; */
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  /* font-weight: 700; */
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: white;
-  background-color: #0F5ACD;
+  background-color: #0f5acd;
   border-radius: 8px;
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-center {
@@ -39,16 +40,16 @@ font-family: 'Raleway', sans-serif;
 }
 
 .nav-link.about {
-  margin-left:60px;
+  margin-left: 60px;
   align-items: center;
 }
 
 .nav-link.service {
-  margin-left:60px;
+  margin-left: 60px;
   align-items: center;
 }
 .nav-link.portfolio {
-  margin-left:60px;
+  margin-left: 60px;
   align-items: center;
 }
 
@@ -57,32 +58,32 @@ font-family: 'Raleway', sans-serif;
     display: block;
     margin: 5px 40px;
   }
-  .navbar-nav{
+  .navbar-nav {
     margin-left: 0;
   }
 
-  .nav-link:hover{
-    color: #0F5ACD;
+  .nav-link:hover {
+    color: #0f5acd;
     background-color: black;
     border-radius: 8px;
-      transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
   .nav-link.about {
     margin-left: 43%;
   }
-  
-  .nav-link.service{
+
+  .nav-link.service {
     margin-left: 43%;
     /* -ms-transform: translate(-50%, -50%); */
     /* transform: translate(-50%, -50%); */
   }
-  .nav-link.portfolio{
+  .nav-link.portfolio {
     margin-left: 43%;
     /* -ms-transform: translate(-50%, -50%); */
     /* transform: translate(-50%, -50%); */
   }
-  .contact-me{
+  .contact-me {
     display: none;
   }
 }
