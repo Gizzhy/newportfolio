@@ -61,9 +61,9 @@ export const Navbar = () => {
               </li> */}
             </ul>
             <li className="d-flex">
-              <Link to="#contactme" className="nav-link nav-cta">
+              <a href="https://wa.me/+2347010190783" target="__blank">
                 <button className="contact-me">Contact Me</button>
-              </Link>
+              </a>
             </li>
 
             {/* <form class="d-flex" role="search">

@@ -10,8 +10,8 @@ import adobe from "../assets/images/adobe.png";
 import html from "../assets/images/html.png";
 import css3 from "../assets/images/css3.png";
 import python from "../assets/images/python.png";
-import calculator from "../assets/images/calculator.png";
-import vendlify from "../assets/images/vendlify.png";
+import travel from "../assets/images/travel.png";
+import simmie from "../assets/images/simmie.png";
 import techmaven from "../assets/images/techmaven.png";
 // import  codetyping from "../assets/images/codetyping.gif"
 // import  mobileapps from "../assets/images/mobileapps.gif"
@@ -46,9 +46,9 @@ function Body() {
                   />
                 </span>
               </h3>
-              <Link to="/continue">
+              <a href="https://wa.me/+2347010190783" target="__blank">
                 <button className="cta">Hire Me !</button>
-              </Link>
+              </a>
             </div>
             <div className="col-lg-6">
               <img className="img-fluid port01" src={port02} alt="" />
@@ -75,8 +75,8 @@ function Body() {
           <div className="row">
             <div className="col-md-12">
               <p className="aboutbody">
-                Hello there ! My name is Adisa and I am a Digital Enthusiast and
-                passionate FrontEnd Web developer.
+                Hello there ! My name is Gideon and I am a Digital Enthusiast
+                and passionate FrontEnd Web developer.
                 <br></br> My interest in web development started back in 2020
                 when I wondered how the internet worked and decided to take a
                 leap of faith.
@@ -120,13 +120,13 @@ function Body() {
           </div>
         </div>
       </section>
-      <div className="container-fluid lineplace">
+      {/* <div className="container-fluid lineplace">
         <div className="row">
           <div className="col-md-12">
             <hr className="line" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <section id="services">
         <div className="container-fluid about-div">
           <div className="row">
@@ -155,12 +155,14 @@ function Body() {
                 <img className="img-fluid portimg" src={techmaven} alt="" />
               </span>
               <span className="html">
-                <a href="https://vendlify.netlify.app/"> Vendlify</a>
-                <img className="img-fluid portimg" src={vendlify} alt="" />
+                <a href="https://vendlify.netlify.app/"> Simmie Shades</a>
+                <img className="img-fluid portimg" src={simmie} alt="" />
               </span>
               <span className="html">
-                An iPhone Calculator Replica
-                <img className="img-fluid portimg" src={calculator} alt="" />
+                <a href="https://travel-techmaven.netlify.app/">
+                  Travel Continental
+                </a>
+                <img className="img-fluid portimg" src={travel} alt="" />
               </span>
             </div>
           </div>
@@ -173,6 +175,7 @@ function Body() {
           </div>
         </div>
       </div>
+
       <section id="contactme">
         <div className="container-fluid about-div">
           <div className="row">
