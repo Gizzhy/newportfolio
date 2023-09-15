@@ -155,7 +155,7 @@ function Body() {
                 <img className="img-fluid portimg" src={techmaven} alt="" />
               </span>
               <span className="html">
-                <a href="https://vendlify.netlify.app/"> Simmie Shades</a>
+                <a href="https://simmieshades.netlify.app/"> Simmie Shades</a>
                 <img className="img-fluid portimg" src={simmie} alt="" />
               </span>
               <span className="html">
