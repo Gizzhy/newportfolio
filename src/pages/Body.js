@@ -151,7 +151,7 @@ function Body() {
             </div>
             <div className="container port-details">
               <span className="html">
-                <a href="https://techmavendev.netlify.app/"> Tech Maven</a>
+                <a href="https://codesystic.dev/"> codesystic</a>
                 <img className="img-fluid portimg" src={techmaven} alt="" />
               </span>
               <span className="html">
