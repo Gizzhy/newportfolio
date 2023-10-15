@@ -12,7 +12,7 @@ import css3 from "../assets/images/css3.png";
 import python from "../assets/images/python.png";
 import travel from "../assets/images/travel.png";
 import simmie from "../assets/images/simmie.png";
-import techmaven from "../assets/images/techmaven.png";
+import codesystic from "../assets/images/codesystic.png";
 // import  codetyping from "../assets/images/codetyping.gif"
 // import  mobileapps from "../assets/images/mobileapps.gif"
 // import  port01 from "../assets/images/port01.png"
@@ -46,9 +46,14 @@ function Body() {
                   />
                 </span>
               </h3>
-              <a href="https://wa.me/+2347010190783" target="__blank">
-                <button className="cta">Hire Me !</button>
-              </a>
+              <div className="butoo">
+                <a href="https://wa.me/+2347010190783" target="__blank">
+                  <button className="cta">Get in Touch</button>
+                </a>
+                <a href="Gideon Akinlotan CV.pdf" target="__blank">
+                  <button className="ctaa">View Resume &#8594;</button>
+                </a>
+              </div>
             </div>
             <div className="col-lg-6">
               <img className="img-fluid port01" src={port02} alt="" />
@@ -71,17 +76,22 @@ function Body() {
             </div>
           </div>
         </div>
-        <div className="container-fluid about-div">
+        <div className="container about-div">
           <div className="row">
             <div className="col-md-12">
               <p className="aboutbody">
-                Hello there ! My name is Gideon and I am a Digital Enthusiast
-                and passionate FrontEnd Web developer.
-                <br></br> My interest in web development started back in 2020
-                when I wondered how the internet worked and decided to take a
-                leap of faith.
-                <br></br> My main aim is building accessible, blazing fast &
-                mobile responsive websites for a variety of client.
+                Hello there ! My name is Gideon and I'm a passionate Frontend
+                Web Developer with a love for all things digital. With a keen
+                eye for design and a knack for turning creative ideas into
+                functional, user-friendly websites, I thrive on crafting
+                seamless online experiences. Whether it's coding in HTML, CSS,
+                and JavaScript or experimenting with the latest web
+                technologies, I'm constantly in pursuit of pixel-perfect
+                perfection. My journey as a digital enthusiast has been a
+                thrilling ride through the ever-evolving landscape of
+                technology, and I can't wait to see what exciting projects and
+                innovations lie ahead. Join me on this captivating digital
+                adventure!
               </p>
             </div>
           </div>
@@ -151,23 +161,44 @@ function Body() {
             </div>
             <div className="container port-details">
               <span className="html">
-                <a href="https://codesystic.dev/"> codesystic</a>
-                <img className="img-fluid portimg" src={techmaven} alt="" />
+                <a href="https://codesystic.dev/"> Codesystic</a>
+                <img className="img-fluid portimg" src={codesystic} alt="" />
+                <button className="but-a">React.JS</button>
+                <button className="but-a">HTML</button>
+
+                <button className="but-a">CSS</button>
+                <button className="but-a">Bootstrap</button>
               </span>
               <span className="html">
                 <a href="https://simmieshades.netlify.app/"> Simmie Shades</a>
                 <img className="img-fluid portimg" src={simmie} alt="" />
+                <button className="but-a">Vite.JS</button>
+                <button className="but-a">HTML</button>
+
+                <button className="but-a">CSS</button>
+                {/* <button>Bootstrap</button> */}
               </span>
               <span className="html">
                 <a href="https://travel-techmaven.netlify.app/">
                   Travel Continental
                 </a>
                 <img className="img-fluid portimg" src={travel} alt="" />
+                <button className="but-a">Vite.JS</button>
+                <button className="but-a">HTML</button>
+                <button className="but-a">CSS</button>
+                {/* <button>Bootstrap</button> */}
               </span>
             </div>
           </div>
         </div>
       </section>
+      <div className="container view">
+        <a href="/#">
+          <p className="view-w">
+            View Full Projects Archive <span className="view-i">&#8594;</span>
+          </p>
+        </a>
+      </div>
       <div className="container-fluid lineplace">
         <div className="row">
           <div className="col-md-12">

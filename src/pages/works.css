@@ -1,0 +1,19 @@
+.main {
+  margin-top: 50px;
+}
+.main-w {
+  color: #0f5acd;
+  font-size: 18px;
+  margin-left: 5px;
+  font-weight: 500 !important;
+}
+.main-i {
+  color: #0f5acd;
+  font-size: 30px;
+}
+
+.main-ww{
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
