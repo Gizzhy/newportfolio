@@ -6,7 +6,7 @@ const Works = () => {
       <div className="main">
         <span className="main-i">&#8592;</span>
         <span className="main-w">Homepage</span>
-        <p className="main-ww">All Projects</p>
+        <p className="main-ww">ALL <span className="pro">PROJECTS</span></p>
       </div>
     </div>
   );

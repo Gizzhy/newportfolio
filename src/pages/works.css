@@ -12,8 +12,12 @@
   font-size: 30px;
 }
 
-.main-ww{
-    font-size: 35px;
-    letter-spacing: 0.1em;
-    font-weight: 600;
+.main-ww {
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.pro {
+  color: black;
+  -webkit-text-stroke: 1px white;
 }

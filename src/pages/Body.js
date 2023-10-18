@@ -103,30 +103,40 @@ function Body() {
             </div>
           </div>
           <div className="container skillset-details">
-            <span className="html">
-              HTML
-              <img className="img-fluid htmlimg" src={html} alt="" />
-            </span>
-            <span className="html">
-              CSS
-              <img className="img-fluid htmlimg" src={css3} alt="" />
-            </span>
-            <span className="html">
-              REACTjs
-              <img className="img-fluid htmlimg" src={structure} alt="" />
-            </span>
-            <span className="html">
-              PYTHON
-              <img className="img-fluid htmlimg" src={python} alt="" />
-            </span>
-            <span className="html">
-              WORDPRESS
-              <img className="img-fluid htmlimg" src={wordpress} alt="" />
-            </span>
-            <span className="html">
-              ADOBE ILLUSTRATOR
-              <img className="img-fluid htmlimg" src={adobe} alt="" />
-            </span>
+            <div className="skillset-details2">
+              <div className="skillset-details2-1">
+                <span className="html">HTML</span>
+                <br />
+                <img className="img-fluid htmlimg" src={html} alt="" />
+              </div>
+              <div className="skillset-details2-1">
+                <span className="html">CSS</span>
+                <br />
+                <img className="img-fluid htmlimg" src={css3} alt="" />
+              </div>
+              <div className="skillset-details2-1">
+                <span className="html">REACTjs</span>
+                <br />
+                <img className="img-fluid htmlimg" src={structure} alt="" />
+              </div>
+            </div>
+            <div className="skillset-details3">
+              <div className="skillset-details3-2">
+                <span className="html">PYTHON</span>
+                <br />
+                <img className="img-fluid htmlimg" src={python} alt="" />
+              </div>
+              <div className="skillset-details3-2">
+                <span className="html">WORDPRESS</span>
+                <br />
+                <img className="img-fluid htmlimg" src={wordpress} alt="" />
+              </div>
+              <div className="skillset-details3-2">
+                <span className="html">ADOBE ILLUSTRATOR</span>
+                <br />
+                <img className="img-fluid htmlimg" src={adobe} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -216,7 +226,7 @@ function Body() {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <p className="developer1">LET'S WORK TOGETHER</p>
+              <p className="developer1">LET'S WORK <span className="toge">TOGETHER</span></p>
             </div>
           </div>
           <div className="row">
